@@ -1,8 +1,7 @@
 language: go
 
 go:
-  -1.9.x
-  -tip
+  -master
 
 before_istall:
   - go get -u github.com/jteeuwen/go-bindata/...
