@@ -16,7 +16,11 @@ clean:
 
 .PHONY: test
 test: bindata
-	go test
+	go test -v
+
+.PHONY: test_all
+test_all: bindata
+	go test -v -tags=integration
 
 .PHONY: bindata
 bindata:
