@@ -1,5 +1,7 @@
 # Consul state repository
 
+[![Build Status](https://travis-ci.org/RaccoonDev/ConsulState.svg?branch=master)](https://travis-ci.org/RaccoonDev/ConsulState)
+
 **TODO:**
 
 - [X] Depdendencies must be vendorized
