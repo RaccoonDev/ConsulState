@@ -4,6 +4,7 @@
 
 - [X] Depdendencies must be vendorized
 - [X] Setup make to build the project
+- [ ] Configure travis-ci
 - [ ] Bootstrap message check to Web UI
 - [ ] Implement synchronous message send in CLI
 - [ ] Implement synchronous message send in Web UI
