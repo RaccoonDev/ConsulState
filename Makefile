@@ -2,7 +2,7 @@ ASSETS_FOLDER = pub/
 WINDOWS_EXE_NAME = consulstate.exe
 
 .PHONY: build
-build: bindata
+build: test bindata
 	go build
 
 .PHONY: build_windows

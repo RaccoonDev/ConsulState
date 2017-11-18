@@ -84,8 +84,8 @@ func TestCheckPattern(t *testing.T) {
 }
 
 func TestParseToMap(t *testing.T) {
-	testJson := `{ "name": "Bob", "age": 33 }`
-	parsedMap, err := parseToMap(testJson)
+	testJSON := `{ "name": "Bob", "age": 33 }`
+	parsedMap, err := parseToMap(testJSON)
 	if err != nil {
 		t.Error("this test json must be parsed")
 	}
