@@ -16,11 +16,11 @@ clean:
 
 .PHONY: test
 test: bindata
-	go test -v
+	go test -race -coverprofile=coverage.txt -covermode=atomic
 
 .PHONY: test_all
 test_all: bindata
-	go test -v -tags=integration
+	go test -race -coverprofile=coverage.txt -covermode=atomic -tags=integration
 
 .PHONY: bindata
 bindata:

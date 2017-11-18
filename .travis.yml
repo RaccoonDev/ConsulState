@@ -7,3 +7,7 @@ go:
   - master
 
 script: go get github.com/jteeuwen/go-bindata/... && go get && make
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
+  
